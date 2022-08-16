@@ -8,6 +8,9 @@ document.getElementById('btn-submit').addEventListener('click',function(){
         alert ('Please enter valid info');
         // console.log(userEmail);
         // console.log(userPass);
+        document.getElementById('user-email').value='';
+        document.getElementById('user-pass').value='';
+        
         
     }
    
